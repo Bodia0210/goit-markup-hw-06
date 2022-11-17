@@ -770,6 +770,81 @@ width: 20px;
   fill: #FFFFFF;
 }
 
+.subscription {
+padding-left: 93px;
+padding-top: 72px;
+}
+
+.subscription-text {
+  font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.subscription-input {
+  box-sizing: border-box;
+  width: 358px;
+    height: 50px;
+    left: 815px;
+    top: 2784px;
+  
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+
+    font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      align-items: center;
+      letter-spacing: 0.03em;
+      padding-left: 16px;
+      color: rgba(255, 255, 255, 0.6);
+      background-color:rgba(47, 48, 58, 1);
+}
+
+.subscription-button {
+  
+  width: 200px;
+  height: 50px;
+  left: 1185px;
+  top: 2784px;
+  
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #FFFFFF;
+    margin-left: 12px;
+}
+
+.subscription-label {
+font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #FFFFFF;
+  margin-left: 28px;
+}
+
+.subscription-icone {
+width: 24px;
+height: 24px;
+margin-left: 10px;
+fill: #FFFFFF;
+}
+
+
 /* portfolio page */
 
 .menu-button {
