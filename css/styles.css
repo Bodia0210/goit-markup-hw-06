@@ -300,7 +300,7 @@ fill: rgba(33, 150, 243, 1);
 }
 
 .input:focus-within >  {
-  border: 1px solid:rgba(33, 150, 243, 1) ;
+  border:rgba(33, 150, 243, 1);
 }
 
 .form-field
