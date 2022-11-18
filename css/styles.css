@@ -299,8 +299,16 @@ fill: rgba(33, 150, 243, 1);
 
 }
 
-.input:focus-within >  {
-  border:rgba(33, 150, 243, 1);
+.form-field .input{ 
+    border: 1px solid rgba(33, 33, 33, 0.2); 
+    outline: none; 
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+.form-field .input:focus {
+  border-color: #2196F3;
+  fill: #2196F3;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
 }
 
 .form-field
@@ -339,6 +347,17 @@ input {
   line-height: 14px;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+  border: 1px solid rgba(33, 33, 33, 0.2);
+    outline: none;
+    transition: border 250ms 
+    cubic-bezier(0.4, 0, 0.2, 1), 
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-field .coment:focus {
+  border-color: #2196F3;
+    fill: #2196F3;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
 }
 
 .icone-label {
@@ -415,8 +434,12 @@ input {
     flex-wrap: wrap;
     width: 18px;
     height: 18px;
-    
-  }
+    }
+
+.close-button .icone-close:hover,
+.close-button .icone-close:focus {
+  fill: #2196F3;
+}
 
 .send-form {
   margin-top: 20px;
@@ -424,9 +447,9 @@ input {
   height: 50px;
   left: 700px;
   top: 712px;
-  background-color: rgba(33, 150, 243, 1);
   background: #2196F3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px 
+  rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #f5f4fa;
   cursor: pointer;
@@ -818,6 +841,10 @@ padding-top: 72px;
       padding-left: 16px;
       color: rgba(255, 255, 255, 0.6);
       background-color:rgba(47, 48, 58, 1);
+      outline: none;
+        transition: border 250ms 
+        cubic-bezier(0.4, 0, 0.2, 1), 
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscription-button {
