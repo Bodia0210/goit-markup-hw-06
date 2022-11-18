@@ -293,7 +293,9 @@ color: #2196f3;
   text-align: left;
 }
 
-
+.form-field:focus-within  {
+background-color: rgba(33, 150, 243, 1);
+}
 
 
 .form-field
@@ -307,9 +309,6 @@ label {
 
 .form-field
 input {
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
-  height: 40px; */
   width: 448px;
   height: 40px;
   left: 576px;
@@ -321,11 +320,6 @@ input {
 
   padding-left: 42px;
   }
-
-.form-field input:checked {
-  background-color: #2196F3;
-}
-
 
 .form-field 
 .coment {
@@ -371,10 +365,12 @@ input {
 }
 
 .checkbox-label {
+  
 }
 
 
 .checkbox:checked + .icone-consent{
+  display: inline-block;
   border-color: transparent;
   background-color: #2196F3;
   background-image: url('../images/icon-check.svg');
@@ -390,6 +386,7 @@ input {
   border: 2px solid black;
   border-radius: 2px;
 }
+
 
 .close-button {
   display: inline-block;
@@ -407,6 +404,7 @@ input {
   cursor: pointer;
   }
 
+  
   .icone-close {
     display: flex;
     flex-wrap: wrap;
